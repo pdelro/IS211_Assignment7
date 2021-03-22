@@ -37,7 +37,7 @@ class Player:
                 if current_total_score >= 100:
                     break
                 else:
-                    decision = input("Roll again or hold? Please enter r for roll again or h to hold.")
+                    decision = input("Roll again or hold? Please enter r to roll again or h to hold.")
         self.score += turn_score
 
 class Game:
